@@ -1,0 +1,131 @@
+Sayfa 1:
+Hugging Face AT Agent Course
+StepI: Understand What are Agents
+Agent Nectir?: An AI model capable of reasoning, planning and interacting with its
+environment
+Gevreside etrilesime pirerek belgi toplayon, karar veres
+ve belirl hedd objufthesinda hareket eder' ofronon system
+$\rightarrow$ An agent is a system that basnges on AI model to interact with its environment in order to achieve
+a user defined objective It combines reasoning (red groun) planning and the executions of (open proollectron) actions (after via external tools) A fuffil hacks.
+Agents have two main parts:
+1 The brain: AI model $\rightarrow$ where all the thinking happens (framing and plening a new)
+2 The body: Eung thing agent is equipped with
+Tend O3ellilferi
+(4) Agent workflow: Think $\rightarrow$ Act $\rightarrow$ Observe
+(long tools)
+$\rightarrow$ Perception (Alytima): Cevresinden veri to plar
+$\rightarrow$ Decision Making: Verigl malis ederek on yyi atigona belirler
+$\rightarrow$ Action / Execution (Efellesim): Cevresini doplothirecel egloride bulunur
+$\rightarrow$ Ggromme Metang: Doyisicllibere usism anjlar ve obesimlesinden dors ubarn
+(3) LLM is the most common AI model in agents
+
+Inguit $\rightarrow$ test $\{$ One of them urates images, now?
+Output $\rightarrow$ test $\rightarrow$ with tools
+An agnt porform tasks via tools to complete actions
+Design of the tools is very important and has a great impact on the quality of agent
+(9) Specifis hols or pound hols can be useful according to the Bsis
+
+Agent interacts with its environment suitable for real-life usage
+Oone Examples
+$\rightarrow$ Personal Vir foal Assistants
+$\rightarrow$ Customer Service Cnobtents
+$\rightarrow$ AT NPC
+$\rightarrow$ To Summarize Aged is a system that uses AI model (generally LLM) as its core reasoning engine, is:
+-Understand nathmal language: Interpret and respond
+
+- Reason and plan: Analyge, make decisions, devise strategies for problem solving
+-Interact with its environment: Take actions and observe results
+
+Sayfa 2:
+Step II - Learn what are LLMs and Messages System
+Each agent needs an AI model and LLM is the most common one.
+LLM Type of AI model that erods of understanding and generating human natural language.
+Tritted with test amounts of text data $\Rightarrow$ Learns patterns, structure, nuance With new actions of parameters
+![img-0.jpeg](img-0.jpeg)
+
+A single Decealing Loop
+
+- Who input text takeiand, model computes a representation of the sequence that captures information about the moving and position
+- Who this representation goes to the model, outputs scores that rank of each token as being the best one of each token.
+
+Based on the scores there is multiple strategies to select tokens
+4 Always take token with maximum score
+A Shortion is all you need. Who predicting rest word not easy word is a sentence is equally impor bend $\Rightarrow$ Key aspect of Tenshore
+The capital of Fronce is
+$\rightarrow$ Carry the most moving $\Rightarrow$ Identifying the most relevant words
+Context might - Refers to maximum number of token the LLM can process, and the maximum attention open it has
+Reducing the next token by looking at every input token does $\Rightarrow$ Your First input sentence is very important
+PRONT
+How are LLMs Trained?
+Trained on large text detnecks, through a self-supervised or marked language modeling objective.
+DI gepos. aslam our findings, toglam glendir
+$\rightarrow$ There isn't a correct answer (towal) Model learns patterns and structure of
+$\rightarrow$ Type of transformers.
+$\rightarrow$ Anisal learning model.
+$\rightarrow$ Utopist.
+
+Sayfa 3:
+# Mesunges and special Totars 
+
+Eelind the times mesings are anactivated and formelted into a prompt that the model can undersiand
+Models are special bines to delinet when the use and asstiont forms start and end
+Lo Tog use Afferent formating rules and delinices for the mesings in the conversation
+System Mesings Defoe how the model should be Persisted instructions, pexing eny adequate interacice
+Olyion propted
+System Mesings also
+
+- Costs informefion about available beds
+-Provides instructions in the model in two to formest the actfion to delce
+- Sminals guidelines in two the thought process should be agnated
+![img-1.jpeg](img-1.jpeg)
+
+Chad bonglatic conrents all the mesings build a pytion list into a prompd ( 4 step apud wib bines that can srim all the mesings).
+conversation $=[$
+("role": "user", "content": "i need help with my order"),
+("role": "assistant", "content": "I'd be happy to help. Could you provide your order number?"),
+("role": "user", "content": "it's ORDER-123"),
+1 Pytion list
+$=$ Sim_startInsystem
+You are a helpful AI assistant named SmoILM, trained by Hugging Face $=$ im_end1=
+$=$ Sim_startIruser
+I need help with my order=Sim_end1
+$=$ Sim_startIrassistant
+I'd be happy to help. Could you provide your order number?=Sim_end1
+$=$ Sim_startInuser
+It's ORDER-123-sim_end1= (SmoILM2 and bonglatic)
+$=$ Sim_startIrassistant
+L-Pass Model is Exstruct Model
+A has model is trained in row test data to pexice start tnkan
+An instruct model is for-based to follow instructions and aqge in conversation
+ChelM1 is no cind bonglatic format with ciber asd inatl
+(2) In two formers, cind bonglatic include dispal orde (SIDN mesings listed Testud representetion ted the model an uncerested
+Lo Tue transformers library bales core of cind bonglales as part of the tolsciation process.
+
+## What are Tools?
+
+At ageis the ability to telpe or have, this happens via togle.
+A tool is a function plus to the LLM. (Shadd fufitio a ciber objective)
+Lo Shadd be something find complements the power of so LLM
+3) If the egan needs up-to-date sides we must provide it through some tool.
+A tool should contain:
+"A reshed charipien of function
+to A calder
+to Arguments with Ipringe
+to Outputs with Ipringe (Iytend)
+(4) LLMs on my review and provide but in, providing a tool for an appt mowns fencing an LLM the existence of a tool and ask to presede a that thad will ineste fode
+to Ets a egeth responsibility to reappies that a find will is required and make the tool
+Lo Output of a tool is another type d mesings in the conversation (Tool, uaking steps we set, shown in the user)
+to Do fact appt visits the tool and the LLM
+(3) Tools, chascriptlon is in the pyjlsm mesings and there to be, provide and eavoreds about what the tool does and what is the tiont input it expocts
+to $E t$ is passafy in cibers that it is not necessary
+0.060,0.870,0.750,0.938
+
+Sayfa 4:
+Auto - formatting Test Sections
+-Talk way down matter for LLM, tools name, wind the bad ideas, inputs and outputs set all bad matters.
+L-童ls can use a gompert that does wheser is read in use a bad
+of redates
+name (or), description (or), function (solids), arguments (link), outputs (or /link), ...call...(), to, string()
+Q-End clesenter retrieve all the information for us via pythems import models. Ids can use. tools to, string method
+![img-2.jpeg](img-2.jpeg)
+

@@ -1,0 +1,10 @@
+Sayfa 1:
+Why Mistral OCR?
+$\sim$ Uses advanced AI models
+$\sim$ Differentiate between headers and body text
+$\sim$ Properly interpret tables and multicolumn formats
+Neden Mistral OCR?
+$\sim$ Geli,mis yapay zeka modelleri kullanur
+$\sim$ Basile re govde metnini ayirt edebilir
+$\sim$ Tablo lan ve got satirls formatiar dizgince yorum bypbitir
+
