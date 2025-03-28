@@ -5,8 +5,8 @@ pip install mistralai python-dotenv
 
 To create an API key:
 - Go to https://console.mistral.ai/api-keys
-- Create account/sign in
-- Create new key
+- Sign up or log in to your account
+- Create a new API key
 - Copy the generated API key
 
 Create .env file
