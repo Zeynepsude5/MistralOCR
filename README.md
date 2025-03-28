@@ -1,4 +1,4 @@
-Install Mistralai and dotenv libraries
+Install MistralAI and dotenv libraries
 ```
 pip install mistralai python-dotenv
 ```
