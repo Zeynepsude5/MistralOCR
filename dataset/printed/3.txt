@@ -1,0 +1,21 @@
+Sayfa 1:
+
+
+Türkçe Karakter Problemi
+
+Türkçe karakterlerin doğru şekilde çıkarılmaması, genellikle OCR işleminde kullanılan modelin ve görüntüdeki metnin işlenme şeklinden kaynaklanabilir. Mistral OCR gibi modern OCR araçları genellikle dil tanıma konusunda oldukça başarılıdır, ancak bazen özel karakterlerle (Türkçe harfler gibi) ilgili sorunlar yaşanabilir. Bu tür bir problemle karşılaşıldığında aşağıdaki yöntemleri deneyebilirsiniz:
+
+1. Görüntü İyileştirme:
+
+- OCR işleminden önce görüntüdeki kontrastı artırarak, yazıyı daha belirgin hale getirebilirsiniz.
+- Görüntü ön işleme (image preprocessing) tekniklerini uygulayarak daha temiz bir giriş sağlamak, OCR'nin doğruluğunu artırabilir. Bu işlemi Python ile yapabileceğiniz bazı kütüphaneler şunlardır:
+- `OpenCV` veya `Pillow` ile görüntüyü büyütme, kontrast artırma veya gürültü giderme işlemleri yapabilirsiniz.
+
+2. Dil Modelini Seçmek:
+
+- Eğer Mistral OCR, Türkçe'yi tam olarak tanımıyorsa, Türkçe dil modeli kullanılabilecek bir alternatif arayışına girebilirsiniz. Bazı OCR servisleri dil seçeneği sunar.
+- Mistral OCR'nin daha iyi sonuç verecek bir Türkçe dil modelini kullanıp kullanmadığınızı kontrol edin. Eğer böyle bir model sunuluyorsa, dil modelini değiştirmek veya belirtilen ayarları incelemek faydalı olabilir.
+
+3. Türkçe'yi Destekleyen OCR Araçları Kullanmak:
+
+- Eğer Mistral OCR Türkçe karakterlerle sorun çıkarıyorsa, Tesseract OCR gibi bir açık kaynak çözümü deneyebilirsiniz. Tesseract OCR Türkçe dahil birçok dili destekler ve Türkçe metinleri daha doğru bir şekilde çıkarabilir.

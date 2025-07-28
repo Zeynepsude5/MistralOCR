@@ -1,0 +1,14 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "markdown": "Why Mistral OCR?\n~ Uses advanced AI models\n~ Differentiate between headers and body text\n~ Properly interpret tables and multicolumn formats\nNe den Mistral OCR?\n~ Gelismis yapay zeka modelleri kullanır\n~ Basilik ve gövde metnini ayırt edebilir\n~ Tabloları ve çok satırlı formatları düzgünce yorumlayabilir.",
+      "images": [],
+      "dimensions": {
+        "dpi": 200,
+        "height": 651,
+        "width": 1230
+      }
+    }
+  ]
+}
